@@ -11,6 +11,9 @@
 		53035C8122C280FB00578E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53035C7F22C280FB00578E75 /* Main.storyboard */; };
 		53035C8322C280FC00578E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53035C8222C280FC00578E75 /* Assets.xcassets */; };
 		53035C8622C280FC00578E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53035C8422C280FC00578E75 /* LaunchScreen.storyboard */; };
+		53035C9422C290D500578E75 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53035C9322C290D500578E75 /* Pokemon.swift */; };
+		53035C9622C290E300578E75 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53035C9522C290E300578E75 /* PokemonController.swift */; };
+		53035C9822C290EF00578E75 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53035C9722C290EF00578E75 /* PokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		53035C8222C280FC00578E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53035C8522C280FC00578E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53035C8722C280FC00578E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53035C9322C290D500578E75 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		53035C9522C290E300578E75 /* PokemonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		53035C9722C290EF00578E75 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		53035C9022C28A1400578E75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				53035C9322C290D500578E75 /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 		53035C9122C28A1B00578E75 /* Model Control */ = {
 			isa = PBXGroup;
 			children = (
+				53035C9522C290E300578E75 /* PokemonController.swift */,
 			);
 			path = "Model Control";
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 		53035C9222C28A2400578E75 /* View Control */ = {
 			isa = PBXGroup;
 			children = (
+				53035C9722C290EF00578E75 /* PokemonViewController.swift */,
 			);
 			path = "View Control";
 			sourceTree = "<group>";
@@ -173,6 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53035C7C22C280FB00578E75 /* AppDelegate.swift in Sources */,
+				53035C9422C290D500578E75 /* Pokemon.swift in Sources */,
+				53035C9822C290EF00578E75 /* PokemonViewController.swift in Sources */,
+				53035C9622C290E300578E75 /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyPokedex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPokedex/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyPokedex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPokedex/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
