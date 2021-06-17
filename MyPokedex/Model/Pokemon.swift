@@ -8,8 +8,18 @@
 
 import Foundation
 
+struct TopPokemonDictionary: Decodable {
+    let count: Int
+    let results: [MidPokemonDictionary]
+}
+
+struct MidPokemonDictionary: Decodable {
+    let name: String
+    let url: String
+}
+
 //1.Get info from the dictionaries
-struct TopLevelDictionary: Decodable {
+struct Pokemon: Decodable {
     
     //2.Conform to decodable ^
     //(take json data and decode it so we can use/interact with it)
@@ -21,6 +31,7 @@ struct TopLevelDictionary: Decodable {
     let id: Int
     let abilities: [AbilityDictionary]
     let spritesDictionary: SpritesDictionary
+    let types: [TypeDictionary]
     
     //4.Renaming using CodingKeys (optional)
      //(enum CodingKeys must be capitalized, the declared type CodingKey must be singular)
@@ -31,6 +42,7 @@ struct TopLevelDictionary: Decodable {
         case id
         case abilities
         case spritesDictionary = "sprites"
+        case types
     }
 }
 
@@ -59,7 +71,16 @@ struct SpritesDictionary: Decodable {
     //(enum CodingKeys must be capitalized, the declared type CodingKey must be singular)
     private enum CodingKeys: String, CodingKey {
         //case ourName = "api_name"
-        case image = "front_shiny"
+        case image = "front_default"
+    }
+}
+
+struct TypeDictionary: Decodable {
+    
+    let type: PokemonType
+    
+    struct PokemonType: Decodable {
+        let name: String
     }
 }
 

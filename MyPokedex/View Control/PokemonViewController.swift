@@ -27,7 +27,7 @@ class PokemonViewController: UIViewController {
         
     }
     
-    func updatesView(pokeball: TopLevelDictionary) {
+    func updatesView(pokeball: Pokemon) {
         DispatchQueue.main.async {
         self.pokeNameLabel.text = pokeball.name.uppercased()
         self.pokeIDLabel.text = "\(pokeball.id)"
