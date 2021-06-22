@@ -14,9 +14,9 @@
             filePath = "MyPokedex/View Control/PokemonListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getPokemon()"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getAllPokemon()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -88,16 +88,80 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "39B1FD14-57B9-4227-B31F-25E8DA593EC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPokedex/View Control/PokemonListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFF0FD41-0E85-49A4-9601-F82ADB1ECEC0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyPokedex/View Control/PokemonListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFFC997D-CF0A-4EBA-977E-2678DAD9C7C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPokedex/View Control/PokemonListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getAllPokemon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFFC997D-CF0A-4EBA-977E-2678DAD9C7C7 - 837d1c22c0c64af8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;MyPokedex.Pokemon&gt;) -&gt; () in closure #1 (Swift.Array&lt;MyPokedex.MidPokemonDictionary&gt;) -&gt; () in MyPokedex.PokemonListViewController.getAllPokemon() -&gt; ()"
+                  moduleName = "MyPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madisonshino/Desktop/MyPokedex/MyPokedex/View%20Control/PokemonListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "238">
+               </Location>
+               <Location
+                  uuid = "CFFC997D-CF0A-4EBA-977E-2678DAD9C7C7 - 8dc777836d258c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in closure #1 (Swift.Optional&lt;MyPokedex.Pokemon&gt;) -&gt; () in closure #1 (Swift.Array&lt;MyPokedex.MidPokemonDictionary&gt;) -&gt; () in MyPokedex.PokemonListViewController.getAllPokemon() -&gt; ()"
+                  moduleName = "MyPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madisonshino/Desktop/MyPokedex/MyPokedex/View%20Control/PokemonListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "131">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

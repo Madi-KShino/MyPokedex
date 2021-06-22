@@ -29,7 +29,7 @@ struct Pokemon: Decodable {
     //(the arrays of dictionaries must be taken apart in another struct (3.))
     let name: String
     let id: Int
-    let abilities: [AbilityDictionary]
+    let abilities: [AbilityDictionaryOne]
     let spritesDictionary: SpritesDictionary
     let types: [TypeDictionary]
     
@@ -48,14 +48,14 @@ struct Pokemon: Decodable {
 
 //1.2.
 //(name of the ability is within a dict. - break into main dict, then into the ability dict))
-struct AbilityDictionary: Decodable {
+struct AbilityDictionaryOne: Decodable {
     
     //3.Declare property we want from the dictionary in api
     //(spelling must be exact)
-    let ability: Ability
+    let ability: AbilityDicTwo
     
     //1.2.
-    struct Ability: Decodable {
+    struct AbilityDicTwo: Decodable {
         //3.
         let name: String
     }
